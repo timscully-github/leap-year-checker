@@ -1,0 +1,29 @@
+body {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.container {
+  padding: 5% 10% 0;
+}
+
+h1 {
+  color: #43d8c9;
+}
+
+.secondary-color {
+  background-color: #95389e;
+}
+
+form {
+  margin: 75px 0 ;
+}
+
+.btn {
+  background-color: #95389e;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #9f9f9f;
+}

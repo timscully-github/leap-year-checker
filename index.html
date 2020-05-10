@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Leap Year Checker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What year is a leap year?</h1>
+      <h4>A normal year has 365 days.<br>A Leap Year has 366 days (the extra day is the 29th of February).
+      <h4>How to know if it is a Leap Year:</h4>
+      <ul>
+        <li>Leap Years are any year that can be exactly divided by 4 (such as 2016, 2020, 2024, etc)</li>
+        <li>except if it can be exactly divided by 100, then it isn't (such as 2100, 2200, etc)</li>
+        <li>except if it can be exactly divided by 400, then it is (such as 2000, 2400)</li>
+      </ul>
+      <form onsubmit="return false">
+        <div class="form-group">
+          <label for="currentAge">Type the year</label>
+          <input type="text" name="year" class="form-control" id="year" aria-describedby="year" placeholder="Year?"><br>
+          <button type="submit" id="submitBtn" class="btn btn-lg mb-2" >Submit</button>
+        </div>
+      </form>
+      <h4 id="result"></h4>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js" ></script>
+  </body>
+</html>
