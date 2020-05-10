@@ -1,9 +1,9 @@
-# Life Expectancy
+# Leap Year Checker
 
-### How long do you have left?
+### What year is a leap year?
 ### Find out by clicking below
 
-[![life-expectancy](https://timscully-github.github.io/life-expectancy/images/preview.png)](https://timscully-github.github.io/life-expectancy/)
+[![leap-year-checker](https://timscully-github.github.io/leap-year-checker/images/preview.png)](https://timscully-github.github.io/leap-year-checker/)
 
 #### Technologies used
 * HTML5

@@ -1,14 +1,24 @@
 body {
-  background-color: #f7f7f7;
+  background-color: #00005c;
   text-align: center;
+  color: #ffdcb4;
 }
 
 .container {
   padding: 5% 10% 0;
 }
 
-h1 {
-  color: #43d8c9;
+h4 {
+  margin-top: 50px;
+}
+
+p {
+    color: #fff;
+}
+
+ul {
+  text-align: left;
+  color: #fff;
 }
 
 .secondary-color {
@@ -16,14 +26,14 @@ h1 {
 }
 
 form {
-  margin: 75px 0 ;
+  margin: 50px 0 ;
 }
 
 .btn {
-  background-color: #95389e;
+  background-color: #c060a1;
   color: #fff;
 }
 
 .btn:hover {
-  color: #9f9f9f;
+  color: #6a097d;
 }
